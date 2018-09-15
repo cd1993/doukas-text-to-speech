@@ -1,0 +1,63 @@
+/*=================================
+BOOTSTRAP OVERRIDES STYLES
+===================================*/
+
+.bg-black {
+    background-color: #000000 !important;
+}
+
+.badge {
+    float: right;
+    background-color: #ffffff;
+    color: #0C22D7;
+}
+
+/*=================================
+LOGO STYLES
+===================================*/
+
+.cdd-logo {
+    border-radius: 15px;
+    width: 100%;
+}
+
+/*=================================
+FORM STYLES
+===================================*/
+
+textarea {
+    resize: none;
+}
+
+.form-group,
+textarea,
+input {
+    outline: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+label,
+button {
+    font-family: "Arial Black", Arial, Sans-Serif;
+}
+
+/*===================================================
+GENERAL STYLES
+=====================================================*/
+
+.cdd-tts-container {
+    background-color: #0C22D7;
+    max-width: 280px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #ffffff;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+/*===================================================
+END STYLE SHEET
+=====================================================*/
